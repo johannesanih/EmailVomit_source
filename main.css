@@ -1,0 +1,61 @@
+QWidget {
+    color: white;
+    background-color: #1e1f1c;
+}
+QLabel, QRadioButton {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+QPushButton, QComboBox, QLineEdit {
+    padding: 10px;
+    border: none;
+    background-color: #ffd000;
+    color: #1e1f1c;
+    font-size: 16px;
+}
+QTextEdit {
+    background-color: #3e3d32;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    color: #44cdef;
+    box-shadow: 0px 0px 5px #141513;
+}
+QSlider::groove:horizontal {
+    height: 8px;
+    background: #8b7200;
+    border-radius: 10px;
+    margin: 2px 0;
+}
+
+QSlider::handle:horizontal {
+    background: #ffd000;
+    width: 18px;
+    margin: -2px 0;
+    border-radius: 50%;
+}
+#country, #domain, #quantity {
+    margin: 10px;
+    border-radius: 15px;
+}
+#country:hover, #domain:hover, #generateBtn:hover {
+    background-color: #44cdef;
+}
+#generateBtn {
+    margin: 10px;
+    border-radius: 15px;
+}
+#infoText {
+    color: #44cdef;
+}
+#helpBtn, #aboutBtn {
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#helpBtn:hover, #aboutBtn:hover {
+    background-color: #44cdef;
+}
